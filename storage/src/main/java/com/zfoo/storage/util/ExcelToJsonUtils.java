@@ -41,7 +41,7 @@ public class ExcelToJsonUtils {
     
     public static void main(String[] args) throws Exception{
         File inputDir = new File("E:\\workspace\\zfoo\\storage\\src\\test\\resources\\excel");
-        String outputDir = "E:\\\\workspace\\\\zfoo\\\\storage\\\\src\\\\test\\\\resources\\\\excel";
+        String outputDir = "E:\\workspace\\zfoo\\storage\\src\\test\\resources\\excel";
         var listFiles = FileUtils.listFiles(inputDir, new String[] { "xls", "xlsx"}, true);
         for (var file : listFiles) {
             var fileName = getFileName(file);
